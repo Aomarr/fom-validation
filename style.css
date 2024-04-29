@@ -5,12 +5,12 @@
     position: relative;
     font-family: "Barlow", sans-serif;
 }
-.viewport-height !important {
+.viewport-height {
     background-color: #F6F3EF;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100svh;
+    height: 100svh !important; 
 }
 .container {
     background-color: #FFFFFC;
