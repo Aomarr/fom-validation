@@ -5,7 +5,7 @@
     position: relative;
     font-family: "Barlow", sans-serif;
 }
-.viewport-height ! important {
+.viewport-height !important {
     background-color: #F6F3EF;
     display: flex;
     align-items: center;
