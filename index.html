@@ -19,7 +19,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
 
-  <body class="viewport-height">
+  <body style="height: 100svh;">
     <section class="container">
       <div class="content">
         <h1>Form Validation</h1>
@@ -32,7 +32,6 @@
               class="username"
               name="usename"
               placeholder="enter your name here"
-              required
             />
           </div>
           <div class="user-email">
@@ -43,7 +42,6 @@
               class="user-mail"
               name="email"
               placeholder="enter your email address here"
-              required
             />
           </div>
           <div class="birth-date">
@@ -53,8 +51,7 @@
               id="birthday"
               class="user-date"
               name="birthday"
-              placeholder="enter your birth date here (yyyy/mm/dd)"
-              required
+              placeholder="enter your birth date here (yyyy/mm/dd)"         
             />
           </div>
           <button class="validate">Validate User Inputs</button>
