@@ -5,7 +5,7 @@ function majorValiation (e) {
     const username = document.querySelector(".username")
     const userMail = document.querySelector(".user-mail")
     const userDate = document.querySelector(".user-date")
-    checkName = /^[a-z]{2,}\s[a-z]{2,}$/ig.test(username.value)
+    checkName = /^[a-z]{2,}(\s[a-z]{2,}){1,}$/ig.test(username.value)
     checkMail = /^[\w|.|-|_]{2,}\@\w{2,}\.[\w]{2,}$/ig.test(userMail.value)
     checkDate = /^\d{4}\/\d{1,2}\/\d{1,2}$/ig.test(userDate.value)
     if (checkName == false) {
